@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(206, 206, 206);
+    margin: auto;
+}
+.post .divimg #postimg{
+    padding: 0px;
+}
+div {
+   /* border: red 1px solid; */
+    padding: 2px 2px 2px 2px;
+}
+.post{
+    background-color: whitesmoke;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+#postimg{
+    width:100%;
+}
+.header-top, .icons{
+    display: flex;
+}
+.nametop{
+    width: 100%;
+}
+.iconos{
+    width: 100%;
+}
+p{
+    width: 100%;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+.descr p:first-child{
+    padding: 10px;
+}
